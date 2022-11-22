@@ -1,0 +1,44 @@
+/* Starting rules for parts D and E. Keep these here and do not change them.
+   If you need to add more styles, repeat the selector in the appropriate section below */
+#spacing {
+  border: 2px solid black;
+  background-color: #c0c0ff;
+}
+
+#flex-align {
+  border: 2px solid black;
+  background-color: #c0c0ff;
+  width: 500px;
+}
+
+#seal {
+  height: 200px;
+}
+
+/* A) Page Font */
+body {
+  font-family: sans-serif;
+}
+
+/* B) Change text case */
+p.upper-bold strong {
+  text-transform: uppercase;
+}
+
+/* C) Margin collapsing */
+#collapsed-margins h1, #first-para {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* D) Spacing of inline elements */
+#spacing > span {
+  padding: 40px;
+  display:inline-block;
+}
+
+/* E) Flexbox to align elements */
+#flex-align {
+  display: flex;
+  align-items: flex-end;  
+}
